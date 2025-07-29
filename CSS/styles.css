@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+      background-color: #dfc4ab;
+    }
+    .dropdown-menu,.navbar {
+      background-color: #8B4513;
+    }
+    .navbar-brand ,.nav-link {
+      color: #fff !important;
+      margin: 0.25rem 2rem;
+    }
+    .dropdown-item{
+        color: #fff !important;
+    }
+    .dropdown-item:hover {
+      background-color: #6f4c3e !important;
+    }
+    .navbar-brand,.nav-link:hover {
+      color: #d1d1d1 !important;
+    }
+    
+    /* Custom button styling */
+    .btn-coffee {
+      background-color: #8B4513;
+      border-color: #8B4513;
+      color: white;
+      font-weight: bold;
+      padding: 12px 30px;
+      border-radius: 25px;
+      transition: all 0.3s ease;
+    }
+    
+    .btn-coffee:hover {
+      background-color: #6f4c3e;
+      border-color: #6f4c3e;
+      color: white;
+      transform: translateY(-2px);
+    }
+    
+    /* Hero section styling */
+    .hero-section {
+      min-height: 80vh;
+      padding: 60px 20px;
+    }
+    
+    .hero-text h2 {
+      color: #2F1B14;
+      font-weight: bold;
+      font-size: 3rem;
+      margin-bottom: 1rem;
+    }
+    
+    .hero-text h4 {
+      color: #6f4c3e;
+      font-style: italic;
+      margin-bottom: 2rem;
+    }
+    
+    .hero-text p {
+      color: #2F1B14;
+      font-size: 1.1rem;
+      line-height: 1.6;
+      margin-bottom: 2rem;
+    }
+    
+    .hero-image {
+      box-shadow: 0 15px 35px rgba(0,0,0,0.1);
+      transition: transform 0.3s ease;
+    }
+    
+    .hero-image:hover {
+      transform: scale(1.02);
+    }
+
+    /* Card styling */
+    .card {
+      border-radius: 15px;
+      background-color: #ffcdb2;
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+      flex-wrap:wrap;
+    }
+
+    .card:hover {
+      transform: translateY(-5px);
+      cursor: pointer;
+      transition: transform 0.3s ease;
+      box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+    }
