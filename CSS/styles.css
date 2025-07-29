@@ -47,7 +47,7 @@ body {
     
     /* Hero section styling */
     .hero-section {
-      min-height: 80vh;
+      min-height: auto;
       padding: 60px 20px;
     }
     
@@ -85,7 +85,6 @@ body {
       border-radius: 15px;
       background-color: #ffcdb2;
       transition: transform 0.3s ease, box-shadow 0.3s ease;
-      flex-wrap:wrap;
     }
 
     .card:hover {
