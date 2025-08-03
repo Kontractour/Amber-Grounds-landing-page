@@ -1,4 +1,4 @@
-# Amber Grounds Landing Page
+# Amber Grounds (Landing Page)
 
 A modern, responsive landing page for Amber Grounds coffee shop built with HTML5, Bootstrap 5, and custom CSS. The page showcases the coffee shop's brand, menu, story, and contact information with a warm, inviting design.
 
