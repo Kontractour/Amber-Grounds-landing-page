@@ -170,4 +170,3 @@ This project is open source and available under the [MIT License](LICENSE).
 ---
 
 **Live Demo**: [View the landing page](https://kontractour.github.io/Amber-Grounds-landing-page)
->>>>>>> 29105cfeed0da39e1c6536999e6e66db292f0506
