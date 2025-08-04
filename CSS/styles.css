@@ -94,7 +94,32 @@ body {
       box-shadow: 0 10px 20px rgba(0,0,0,0.1);
     }
 
-    .about {
-      padding: 60px 20px;
-      
-    }
+   .about {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), 
+                      url('/image/coffee-shop.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.about .container {
+    padding: 25px 25px;
+}
+
+/* Make text more readable on background */
+.about h2 {
+    color: #b36d3b !important;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+    font-size: 2.5rem;
+}
+
+.about p {
+    color: #f8f9fa !important;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.7);
+    font-size: 1.2rem;
+}
